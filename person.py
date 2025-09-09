@@ -19,5 +19,9 @@ class Student(Person):
         super().introduce()
         print(f"My student ID is {self.student_id}.")
 
+    def study(self):
+        print(f"{self.name} is studying.")
+
 student1 = Student("Alice", 20, "12345")
 student1.introduce()
+student1.study()
