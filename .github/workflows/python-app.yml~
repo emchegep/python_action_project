@@ -21,4 +21,3 @@ jobs:
         run: |
           python -c "import sys; print(sys.version)"
           python -m pip install --upgrade pip
-          python -c person.py
